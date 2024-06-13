@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import logo from './images/logo.png';
+import Header from './ui-components/Header.jsx';
+import AboutUs from './ui-components/aboutUs.jsx';
+import ImageSwipe from './ui-components/imageSwipe.jsx';
+import './index.css';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header></Header>
     </div>
   );
 }
