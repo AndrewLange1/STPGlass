@@ -10,6 +10,7 @@ import image1 from '../images/image1 copy.JPG';
 import image2 from '../images/image2 copy.JPG';
 import image3 from '../images/image3 copy.JPG';
 import image4 from '../images/image4 copy.JPG';
+import '../index.css';
 SwiperCore.use([Autoplay]);
 
 function imageSwipe() {
