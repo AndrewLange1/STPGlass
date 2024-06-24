@@ -151,7 +151,7 @@ function App() {
       <div className={`flex flex-row w-full content-below ${isMenuOpen ? 'menu-open' : ''}`}>
         <div className="flex flex-row justify-center h-[687px] w-[42vw] custom-gradient">
           <div className="flex flex-col text-center w-[40vw]">
-            <p className="text-white text-[19px] mt-[70px] headquarters">Trustworthy Glass is your Saint Paul Glass Headquarters</p>
+            <p className="text-white text-[19px] mt-[70px] headquarters">Trustworthy Glass is your MN Glass and Mirror Headquarters</p>
             <div className="w-full justify-center mx-auto">
               <p className="mt-[130px] text-white headquarters">Trustworthy Glass is family owned and operated since</p>
               <p className="mt-[25px] text-white headquarters">2008. We are proud to be a part of the Shoreview</p>
